@@ -144,7 +144,7 @@ export default function Index() {
               <Card key={idx} className="p-8 text-center border-2 hover:border-primary transition-all">
                 <div className="w-24 h-24 bg-gradient-to-br from-secondary to-primary rounded-full mx-auto mb-4"></div>
                 <h3 className="text-2xl font-semibold mb-2">{member.name}</h3>
-                <p className="text-primary font-medium mb-1">{member.position}</p>
+                <p className="font-medium mb-1 text-slate-700">{member.position}</p>
                 <p className="text-sm text-muted-foreground">{member.experience}</p>
               </Card>
             ))}
