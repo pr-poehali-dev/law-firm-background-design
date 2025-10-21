@@ -51,8 +51,7 @@ export default function Index() {
 
   const team = [
     { name: 'Александр Петров', position: 'Старший партнер', experience: '20 лет практики' },
-    { name: 'Екатерина Волкова', position: 'Партнер', experience: '15 лет практики' },
-    { name: 'Михаил Соколов', position: 'Юрист', experience: '10 лет практики' }
+    { name: 'Екатерина Волкова', position: 'Партнер', experience: '15 лет практики' }
   ];
 
   const practices = [
