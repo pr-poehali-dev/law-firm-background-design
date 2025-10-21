@@ -1,0 +1,26 @@
+{
+  "tests": [
+    {
+      "name": "Valid consultation request",
+      "method": "POST",
+      "body": {
+        "name": "Иван Иванов",
+        "phone": "+7 (495) 123-45-67",
+        "email": "ivan@example.com",
+        "message": "Нужна консультация по корпоративному праву"
+      },
+      "expectedStatus": 200,
+      "expectedBody": {
+        "success": true,
+        "id": "number",
+        "message": "string"
+      },
+      "bodyMatcher": "partial"
+    },
+    {
+      "name": "OPTIONS request for CORS",
+      "method": "OPTIONS",
+      "expectedStatus": 200
+    }
+  ]
+}
