@@ -112,7 +112,7 @@ export default function Index() {
 
       <section id="services" className="py-20">
         <div className="container mx-auto px-4">
-          <h2 className="text-5xl font-bold text-center mb-4">Услуги</h2>
+          <h2 className="text-5xl font-bold text-center mb-4">Каталог услуг</h2>
           <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
             Комплексное юридическое сопровождение для бизнеса и частных лиц
           </p>
