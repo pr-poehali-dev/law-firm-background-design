@@ -113,7 +113,7 @@ export default function Index() {
       <section id="services" className="py-20">
         <div className="container mx-auto px-4">
           <h2 className="text-5xl font-bold text-center mb-4">Каталог услуг</h2>
-          <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">Мы собрали здесь наши ключевые услуги —
+          <p className="text-muted-foreground mb-12 max-w-2xl mx-auto text-center">Мы собрали здесь наши ключевые услуги —
 от консультаций до сопровождения бизнеса</p>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {services.map((service, idx) => (
