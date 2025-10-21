@@ -171,7 +171,7 @@ export default function Index() {
         </div>
       </section>
 
-      <section id="contacts" className="py-20 bg-gradient-to-br from-secondary to-secondary/90 text-white">
+      <section id="contacts" className="py-20 from-secondary to-secondary/90 text-white bg-emerald-900">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-12">
             <div>
