@@ -84,7 +84,7 @@ export default function Index() {
         </div>
       </nav>
 
-      <section id="home" className="pt-32 pb-20 bg-gradient-to-br from-secondary via-secondary to-primary/20">
+      <section id="home" className="pt-32 pb-20 relative" style={{backgroundImage: 'url(https://cdn.poehali.dev/files/dc652f88-f92b-45bb-ab28-909e848ff963.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
         <div className="container mx-auto px-4">
           <div className="max-w-3xl">
             <h1 className="text-6xl md:text-7xl font-bold text-white mb-6 animate-fade-in">
