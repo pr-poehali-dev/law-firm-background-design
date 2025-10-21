@@ -97,7 +97,7 @@ export default function Index() {
               <Button 
                 size="lg" 
                 onClick={() => setIsBookingOpen(true)}
-                className="bg-primary hover:bg-primary/90 text-white"
+                className="bg-white hover:bg-white/90 text-secondary"
               >
                 Бесплатная консультация
               </Button>
