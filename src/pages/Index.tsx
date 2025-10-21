@@ -86,9 +86,7 @@ export default function Index() {
       <section id="home" className="pt-32 pb-20 relative" style={{backgroundImage: 'url(https://cdn.poehali.dev/files/dc652f88-f92b-45bb-ab28-909e848ff963.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
         <div className="container mx-auto px-4">
           <div className="max-w-3xl">
-            <h1 className="text-6xl md:text-7xl text-white mb-6 animate-fade-in font-normal">
-              Защитим ваши интересы
-            </h1>
+            <h1 className="text-6xl md:text-7xl text-white mb-6 animate-fade-in font-light">Право нового поколения</h1>
             <p className="text-xl text-white/90 mb-8">
               Профессиональные юридические услуги с 2003 года. Индивидуальный подход к каждому клиенту.
             </p>
