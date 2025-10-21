@@ -138,7 +138,7 @@ export default function Index() {
           <p className="text-center text-muted-foreground mb-12">
             Опытные юристы с безупречной репутацией
           </p>
-          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
             {team.map((member, idx) => (
               <Card key={idx} className="p-8 text-center border-2 hover:border-primary transition-all">
                 <div className="w-24 h-24 bg-gradient-to-br from-secondary to-primary rounded-full mx-auto mb-4"></div>
