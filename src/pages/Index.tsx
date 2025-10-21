@@ -171,7 +171,7 @@ export default function Index() {
         </div>
       </section>
 
-      <section id="contacts" className="py-20 from-secondary to-secondary/90 text-white bg-emerald-900">
+      <section id="contacts" className="py-20 text-white relative" style={{backgroundImage: 'url(https://cdn.poehali.dev/files/330c723c-1184-455d-992e-cb59a57be793.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-12">
             <div>
@@ -223,7 +223,7 @@ export default function Index() {
         </div>
       </section>
 
-      <footer className="bg-secondary text-white py-8">
+      <footer className="text-white py-8 relative" style={{backgroundImage: 'url(https://cdn.poehali.dev/files/330c723c-1184-455d-992e-cb59a57be793.jpg)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
         <div className="container mx-auto px-4 text-center">
           <p className="text-white/60">&copy; 2024 LAW FIRM. Все права защищены.</p>
         </div>
