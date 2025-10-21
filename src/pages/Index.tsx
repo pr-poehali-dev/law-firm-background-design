@@ -46,7 +46,13 @@ export default function Index() {
     { icon: 'Scale', title: 'Консультация', description: 'Устно и письменно — по вопросам гражданского, предпринимательского, корпоративного, семейного, жилищного и других отраслей частного права.' },
     { icon: 'FileText', title: 'Претензии', description: 'Составляем претензии для досудебного урегулирования споров — аргументированно и по делу' },
     { icon: 'Home', title: 'Жалобы, обращения, заявления', description: 'Формулируем позицию, доносим её до органов власти — чтобы вас услышали.' },
-    { icon: 'Users', title: 'Доверенность', description: 'Готовим нотариальные доверенности — чётко, корректно и с учётом всех требований.' }
+    { icon: 'Users', title: 'Доверенность', description: 'Готовим нотариальные доверенности — чётко, корректно и с учётом всех требований.' },
+    { icon: 'Briefcase', title: 'Договоры', description: 'Разработка и проверка договоров любой сложности для защиты ваших интересов.' },
+    { icon: 'ShieldCheck', title: 'Защита прав', description: 'Представительство и защита ваших прав в судах и государственных органах.' },
+    { icon: 'Building', title: 'Недвижимость', description: 'Юридическое сопровождение сделок с недвижимостью, оформление документов.' },
+    { icon: 'Handshake', title: 'Медиация', description: 'Досудебное урегулирование споров через переговоры и посредничество.' },
+    { icon: 'BookOpen', title: 'Правовой аудит', description: 'Комплексная проверка документов и процедур на соответствие законодательству.' },
+    { icon: 'Stamp', title: 'Регистрация бизнеса', description: 'Помощь в регистрации ООО, ИП и других организационно-правовых форм.' }
   ];
 
   const team = [
@@ -115,7 +121,7 @@ export default function Index() {
           <h2 className="text-5xl font-bold text-center mb-4">Каталог услуг</h2>
           <p className="text-muted-foreground mb-12 max-w-2xl mx-auto text-center">Мы собрали здесь наши ключевые услуги —
 от консультаций до сопровождения бизнеса</p>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
             {services.map((service, idx) => (
               <Card key={idx} className="p-6 hover:shadow-lg transition-shadow border-2 hover:border-primary">
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
